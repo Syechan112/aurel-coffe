@@ -1,0 +1,31 @@
+- [x] Add Anime.js v4 viewport-triggered animation foundation
+- [x] Animate sections and key content as they enter viewport
+- [x] Lazy-load route pages and media where applicable
+- [x] Run typecheck and tests
+- [x] Use Picsum placeholder image for HeroSection
+- [x] Map coffee images to local public assets
+- [x] Add all four step images to OriginCraftSection
+- [x] Suspense layout hides Footer until route finished loading
+- [x] Keep HeroSection background fixed while scrolling
+- [x] Use local brewing ritual image via BACKGROUND_IMAGE_REF
+- [x] Split FlavorExplorer page without changing URL filter behavior
+- [x] Verify FlavorExplorer split
+- [x] Split CoffeeDetail page into reusable components
+- [x] Verify CoffeeDetail split
+- [x] Add mobile nav open/close animations
+- [x] Split Collection page: extract header to CollectionHero component
+- [x] Move Collection filter logic to useCollectionFilters hook
+- [x] Align CollectionHero header with ExplorerHero (dark background, large typography)
+- [x] Verify Collection split and styling
+- [x] Replace Collection native dropdowns with accessible selection modals
+- [x] Replace Collection roast radio inputs with styled segmented options
+- [x] Verify Collection filter controls and modal behavior
+- [x] Render CollectionOptionModal through document body portal so position stays viewport-centered
+- [x] Split OurCraft page into focused hero, intro, phase, and CTA components
+- [x] Verify OurCraft split without changing page content
+- [x] Split BrewJournal page into hero, archive, CTA, and article list components
+- [x] Verify BrewJournal split without changing page content
+- [x] Split BrewStudio page into focused hero, controls, and recipe components
+- [x] Verify BrewStudio behavior and calculations remain unchanged
+- [x] Fix React inert attribute warning in MobileNav
+

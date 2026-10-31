@@ -1,0 +1,30 @@
+@import "tailwindcss";
+@import "./tokens.css";
+
+:root {
+  --ink: #332A24;
+  --paper: #F3EDE2;
+  --oat: #D7C6A8;
+  --olive: #77765B;
+  --white: #FFFCF7;
+  --muted-ink: #71675D;
+  --line: #D9D0C4;
+}
+
+@layer base {
+  body {
+    @apply bg-[#F3EDE2] text-[#332A24] font-sans antialiased;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    line-height: 1.2;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+  }
+  p {
+    line-height: 1.6;
+    margin: 0;
+  }
+}
+
+

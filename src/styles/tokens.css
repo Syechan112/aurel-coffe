@@ -1,0 +1,21 @@
+@theme {
+  /* Brand palette */
+  --color-ink: #332A24;
+  --color-paper: #F3EDE2;
+  --color-oat: #D7C6A8;
+  --color-olive: #77765B;
+  --color-white: #FFFCF7;
+  --color-muted-ink: #71675D;
+  --color-line: #D9D0C4;
+
+  /* Semantic tokens */
+  --color-bg: var(--color-paper);
+  --color-surface: var(--color-white);
+  --color-text: var(--color-ink);
+  --color-text-muted: var(--color-muted-ink);
+  --color-border: var(--color-line);
+  --color-action-bg: var(--color-ink);
+  --color-action-text: var(--color-paper);
+  --color-focus-ring: var(--color-oat);
+  --color-error: #B91C1C;
+}
